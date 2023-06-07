@@ -20,9 +20,16 @@ body {
   color: var(--text);
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
 h3 {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
 }
 
 .link {
@@ -97,6 +104,8 @@ header {
 }
 /* End Header style */
 
+/* --------------------------------------------------------------------- */
+
 /* Main block style */
 
 /* Introduce block style */
@@ -135,24 +144,47 @@ header {
 
 /* End Introduce block style */
 
+/* --------------------------------------------------------------------- */
+
 /* Features block style */
-.sub-title {
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0.02em;
-}
 /* End Features block style */
 
+/* --------------------------------------------------------------------- */
+
 /* Products block style */
+.products .sub-title {
+  text-transform: capitalize;
+  line-height: 1.11;
+  text-align: center;
+}
+
 /* End Products block style */
+
+/* --------------------------------------------------------------------- */
 
 /* Team block style */
 .team-section {
   background-color: var(--light);
 }
+
+.team-section .sub-title {
+  text-transform: capitalize;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.team-section-items {
+  color: var(--white-background);
+}
+
+.describe {
+  font-size: 16px;
+}
 /* End Team block style */
 
 /* End Main block style */
+
+/* --------------------------------------------------------------------- */
 
 /* Pportfolio section */
 
@@ -171,10 +203,20 @@ header {
 }
 /* End Pportfolio section */
 
+/* --------------------------------------------------------------------- */
+
 /* Footer style */
-footer {
+.footer {
   color: var(--light);
   background-color: #2e2f42;
   border-top: 1px solid var(--accent);
+}
+
+.footer-logo {
+  color: var(--light);
+}
+
+.footer-p {
+  color: var(--light);
 }
 /* End Footer style */

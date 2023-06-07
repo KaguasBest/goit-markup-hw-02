@@ -34,16 +34,21 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.link {
-  text-decoration: none;
-}
-
 p {
   color: var(--text);
 }
 
 button {
   cursor: pointer;
+}
+
+.button:hover {
+  color: var(--pressed-state);
+}
+
+.button:focus,
+.button:active {
+  color: var(--pressed-state);
 }
 
 .logo {
@@ -58,6 +63,7 @@ button {
 }
 
 .list {
+  letter-spacing: 0.02em;
   list-style: none;
 }
 /* Header style */
@@ -132,15 +138,6 @@ header {
   background-color: var(--primary-brand);
   color: var(--white-background);
   font-family: Roboto, sans-serif;
-}
-
-.button-introduce:hover {
-  color: var(--pressed-state);
-}
-
-.button-introduce:focus,
-.button-introduce:active {
-  color: var(--pressed-state);
 }
 
 /* End Introduce block style */

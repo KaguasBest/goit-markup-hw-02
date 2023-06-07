@@ -1,6 +1,6 @@
 :root {
   --primary-brand: #4d5ae5;
-  --presse-state: #404bbf;
+  --pressed-state: #404bbf;
   --dark: #2e2f42;
   --sucess: #31d0aa;
   --text: #434455;
@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -24,11 +24,13 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
+  color: var(--dark);
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
+  color: var(--dark);
   letter-spacing: 0.02em;
 }
 
@@ -45,16 +47,19 @@ button {
 }
 
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  line-height: 1.17em;
+  line-height: 1.17;
   color: var(--primary-brand);
 }
 
+.list {
+  list-style: none;
+}
 /* Header style */
 
 header {
@@ -66,10 +71,6 @@ header {
   color: var(--dark);
 }
 
-.list {
-  list-style: none;
-}
-
 .navigation-link {
   font-weight: 500;
   font-size: 16px;
@@ -79,12 +80,12 @@ header {
 }
 
 .navigation-link:hover {
-  color: var(--presse-state);
+  color: var(--pressed-state);
 }
 
 .navigation-link:focus,
 .navigation-link:active {
-  color: var(--presse-state);
+  color: var(--pressed-state);
 }
 
 .contacts-link {
@@ -95,12 +96,12 @@ header {
 }
 
 .contacts-link:hover {
-  color: var(--presse-state);
+  color: var(--pressed-state);
 }
 
 .contacts-link:focus,
 .contacts-link:active {
-  color: var(--presse-state);
+  color: var(--pressed-state);
 }
 /* End Header style */
 
@@ -134,12 +135,12 @@ header {
 }
 
 .button-introduce:hover {
-  color: var(--presse-state);
+  color: var(--pressed-state);
 }
 
 .button-introduce:focus,
 .button-introduce:active {
-  color: var(--presse-state);
+  color: var(--pressed-state);
 }
 
 /* End Introduce block style */
@@ -174,7 +175,7 @@ header {
 }
 
 .team-section-items {
-  color: var(--white-background);
+  background-color: var(--white-background);
 }
 
 .describe {
@@ -198,7 +199,7 @@ header {
 }
 
 .button-text:hover {
-  background-color: var(--presse-state);
+  background-color: var(--pressed-state);
   color: var(--white-background);
 }
 /* End Pportfolio section */

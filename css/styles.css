@@ -78,7 +78,6 @@ nav > a {
 
 header {
   background-color: var(--white-background);
-  border-bottom: 1px solid var(--accent);
 }
 
 .header-logo {
@@ -245,7 +244,6 @@ header {
 .footer {
   color: var(--light);
   background-color: #2e2f42;
-  border-top: 1px solid var(--accent);
 }
 
 footer > a {

@@ -102,10 +102,14 @@ header {
   color: var(--pressed-state);
 }
 
+.address {
+  font-style: normal;
+}
+
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   color: var(--text);
 }
 
@@ -146,6 +150,15 @@ header {
   background-color: var(--primary-brand);
   color: var(--white-background);
   font-family: Roboto, sans-serif;
+}
+
+.button-introduce:hover {
+  background-color: var(--pressed-state);
+}
+
+.button-introduce:focus,
+.button-introduce:active {
+  background-color: var(--pressed-state);
 }
 
 /* End Introduce block style */
@@ -198,11 +211,12 @@ header {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
   color: var(--primary-brand);
-  background-color: var(--accent);
+  background-color: var(--light);
 }
 
 .button-filter:hover {
@@ -214,6 +228,14 @@ header {
 .button-filter:active {
   background-color: var(--pressed-state);
   color: var(--white-background);
+}
+
+.portfolio-items-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--dark);
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 /* End Pportfolio section */
 
